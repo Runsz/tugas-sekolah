@@ -1,0 +1,42 @@
+body{
+    background-image: url(bg.jpg);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container{
+    padding-top: 100px;
+    display: flex;
+    width: 75%;
+    margin: auto;
+}
+.avatar{
+    border-radius: 50%;
+    width: 200px;
+}
+
+header{
+    text-align: center;
+    width: 45%;
+    margin-right: 10px;
+}
+main{
+    width: 50%;
+}
+
+table, td{
+    border: 1px solid black;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media (max-width: 650px){
+    .container{
+        display: block;
+    }
+    header, main{
+        width: 100%;
+    }
+}
